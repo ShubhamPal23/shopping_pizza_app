@@ -1,6 +1,46 @@
 .logo{
-    height: 120px;
+    height: 140px;
+    mix-blend-mode: hard-light;
 }
 .logo img{
-    height: 100%; 
+    height: 100%;
+    
+}
+.btn {
+    cursor: pointer;
+    background-color: #e74c3c; /* Red button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+#basket{
+    font-weight: bolder;
+}
+#totalsum {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Courier New", monospace;
+  }
+  #basket {
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+}
+#basket {
+    margin-top: 30px;
+    max-height: 400px; 
+    overflow-y: auto; 
+}
+  
+#basket .pizza-card-container {
+    padding: 10px;
 }
